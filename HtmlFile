@@ -1,0 +1,57 @@
+<!-- <table> -->
+  <!DOCTYPE html>
+  <html>
+  <body style="background-color:skyblue;">
+    <div class="main">
+        <ul>
+          <li><a href="#voizfonica">Voizfonica</a></li>&nbsp;
+          <li><a href="#recharge">Recharge</a></li>&nbsp;
+          <li><a href="#current-plan-details">Current Plan Details</a></li>&nbsp;
+          <li><a href="#customer-service">Customer Service</a></li>&nbsp;
+          <li><a href="#about">About</a></li>&nbsp;
+          <li><a href="#help">Help</a></li>&nbsp;
+          <li><a href="#logout">LogOut</a></li>
+          </ul>
+          <img src="../../assets/voizfonica.jpeg" width="20%">
+          <ngb-carousel >
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="../../assets/B1.jpg" alt="Random first slide" width="100%">
+              </div>
+              <!-- <div class="carousel-caption">
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="../../assets/b4.jpg" alt="Random second slide" width="100%">
+              </div>
+              <!-- <div class="carousel-caption">
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div> -->
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img  src="../../assets/b2.jpg" alt="Random third slide" width="100%">
+              </div>
+              <!-- <div class="carousel-caption">
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div> -->
+            </ng-template>
+          </ngb-carousel>
+            
+        
+        <img src="../../assets/plan.png " width="100%">
+        <img src="../../assets/plan2.png" width="100%" >
+
+
+       
+    </div>
+  </body>
+
+
+
+  </html>
